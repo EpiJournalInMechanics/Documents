@@ -1,0 +1,27 @@
+\documentclass[tikz,10pt]{standalone}
+\usetikzlibrary{calc}
+
+\begin{document}
+\begin{tikzpicture}[scale=1]
+\foreach \x in {1,2,...,150}
+{
+%\pgfmathparse{0.9*rnd+0.3};
+\pgfmathparse{rnd}
+\edef\R{\pgfmathresult}
+\pgfmathparse{rnd}
+\edef\G{\pgfmathresult}
+\pgfmathparse{rnd}
+\edef\B{\pgfmathresult}
+
+\pgfmathparse{rnd}
+\edef\XP{\pgfmathresult}
+\pgfmathparse{rnd}
+\edef\YP{\pgfmathresult}
+\pgfmathparse{rnd}
+\edef\radius{\pgfmathresult}
+
+\xdefinecolor{MyColor}{rgb}{\R,\G,\B};
+\fill[color=MyColor] (\XP,\YP) circle (.1*\radius);
+}
+\end{tikzpicture}
+\end{document}

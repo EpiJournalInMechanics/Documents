@@ -1,0 +1,10 @@
+\select@language {english}
+\contentsline {section}{\numberline {{1}.}Introduction}{2}{section.1}
+\contentsline {paragraph}{Theorem.}{2}{section*.2}
+\contentsline {paragraph}{Remarks.}{3}{section*.3}
+\contentsline {section}{\numberline {{2}.}Fourier transforms of Kummer pullbacks of hypergeometrics}{3}{section.2}
+\contentsline {section}{\numberline {{3}.}Reduction of the proof of the theorem to the case where Assumption~\ref {ass:stronglynonresonant} is fulfilled}{4}{section.3}
+\contentsline {section}{\numberline {{4}.}Nearby cycles for the Kummer pullback}{5}{section.4}
+\contentsline {section}{\numberline {{5}.}The filtered inverse stationary phase formula and irregular Hodge \hbox {numbers}}{7}{section.5}
+\contentsline {section}{\numberline {{6}.}End of the proof of the theorem}{8}{section.6}
+\contentsline {section}{References}{8}{section*.8}
